@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joystick360", "Joystick360\Joystick360.csproj", "{409077F2-B800-4EEB-92E4-23BC1BFC22D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joystick360Controller", "Joystick360Controller\Joystick360Controller.csproj", "{6E5CF44C-BD51-4062-B71A-F9158ECB3475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanPointer", "HumanPointer\HumanPointer.csproj", "{05ADFD64-5400-4DF1-899F-AEA75ECF9BA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{8BA40615-BD6F-4B19-833D-DEC925AB97F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoystickMouse", "JoystickMouse\JoystickMouse.csproj", "{3474617A-4D11-495E-A060-121B623B9C3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0DBB6D04-3E42-451C-B58A-0AF4B277802D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joystick360Controller.UnitTests", "Joystick360Controller.UnitTests\Joystick360Controller.UnitTests.csproj", "{F4D56084-72F6-4FA1-947E-BEBCCAE2B79C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{409077F2-B800-4EEB-92E4-23BC1BFC22D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409077F2-B800-4EEB-92E4-23BC1BFC22D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409077F2-B800-4EEB-92E4-23BC1BFC22D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409077F2-B800-4EEB-92E4-23BC1BFC22D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5CF44C-BD51-4062-B71A-F9158ECB3475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5CF44C-BD51-4062-B71A-F9158ECB3475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5CF44C-BD51-4062-B71A-F9158ECB3475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5CF44C-BD51-4062-B71A-F9158ECB3475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05ADFD64-5400-4DF1-899F-AEA75ECF9BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05ADFD64-5400-4DF1-899F-AEA75ECF9BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05ADFD64-5400-4DF1-899F-AEA75ECF9BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05ADFD64-5400-4DF1-899F-AEA75ECF9BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA40615-BD6F-4B19-833D-DEC925AB97F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA40615-BD6F-4B19-833D-DEC925AB97F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA40615-BD6F-4B19-833D-DEC925AB97F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA40615-BD6F-4B19-833D-DEC925AB97F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3474617A-4D11-495E-A060-121B623B9C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3474617A-4D11-495E-A060-121B623B9C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3474617A-4D11-495E-A060-121B623B9C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3474617A-4D11-495E-A060-121B623B9C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D56084-72F6-4FA1-947E-BEBCCAE2B79C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D56084-72F6-4FA1-947E-BEBCCAE2B79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D56084-72F6-4FA1-947E-BEBCCAE2B79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D56084-72F6-4FA1-947E-BEBCCAE2B79C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4D56084-72F6-4FA1-947E-BEBCCAE2B79C} = {0DBB6D04-3E42-451C-B58A-0AF4B277802D}
+	EndGlobalSection
+EndGlobal
